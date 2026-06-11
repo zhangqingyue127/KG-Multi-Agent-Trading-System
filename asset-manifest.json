@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KG-Multi-Agent-Trading-System/static/css/main.27b18b9e.css",
+    "main.js": "/KG-Multi-Agent-Trading-System/static/js/main.ba6b3090.js",
+    "index.html": "/KG-Multi-Agent-Trading-System/index.html",
+    "main.27b18b9e.css.map": "/KG-Multi-Agent-Trading-System/static/css/main.27b18b9e.css.map",
+    "main.ba6b3090.js.map": "/KG-Multi-Agent-Trading-System/static/js/main.ba6b3090.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27b18b9e.css",
+    "static/js/main.ba6b3090.js"
+  ]
+}
