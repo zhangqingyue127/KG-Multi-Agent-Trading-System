@@ -1,0 +1,10 @@
+﻿entity,description,key_attributes
+Asset,资产/股票/ETF,"symbol, name, sector, style, asset_type"
+RiskProfile,资产风险画像,"vol_bucket, max_position, vol_limit, drawdown_limit"
+MarketSnapshot,资产-日期级市场快照,"date, trend_state, vol_state, momentum_state"
+MarketState,趋势/波动/动量状态,"StrongUptrend, Sideways, HighVolatility, Overbought"
+Agent,多 Agent 决策参与者,"TechnicalAgent, BullAgent, BearAgent, RiskAgent"
+AgentWeight,日期级 Agent 信任权重,"weight, asset, date"
+Decision,日期级仓位决策,"raw_position, final_position, action, veto_reason"
+Evidence,结构化决策证据,"technical_score, bull_score, bear_score, risk_score"
+RiskRule,硬风控规则,"max_position, vol_limit, drawdown_limit"

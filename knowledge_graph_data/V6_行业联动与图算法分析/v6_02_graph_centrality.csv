@@ -1,0 +1,10 @@
+﻿asset,pagerank,degree_centrality,industry,risk,interpretation
+NVDA,0.18812,1.5,Semiconductor AI,high,risk hub
+MSFT,0.160449,1.5,Cloud Software,medium,risk hub
+AAPL,0.152555,1.5,Technology Hardware,medium,risk hub
+SPY,0.134216,1.5,Broad Market ETF,low,normal node
+QQQ,0.09347,1.0,Technology Growth ETF,medium,normal node
+IVV,0.076263,0.75,Broad Market ETF,low,normal node
+VOO,0.076263,0.75,Broad Market ETF,low,normal node
+AMD,0.07137,0.5,Semiconductor AI,high,normal node
+TSLA,0.047294,0.5,High Beta Growth,high,normal node

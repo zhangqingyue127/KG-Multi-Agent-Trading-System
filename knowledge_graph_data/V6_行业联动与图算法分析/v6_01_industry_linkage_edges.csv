@@ -1,0 +1,20 @@
+﻿source,relation,target,weight,reason
+NVDA,SAME_INDUSTRY_AS,AMD,0.95,semiconductor peer
+AAPL,TECH_RELATED_TO,MSFT,0.7,mega cap technology relation
+AAPL,SUPPLY_CHAIN_RELATED_TO,NVDA,0.55,AI device and chip ecosystem
+MSFT,AI_ECOSYSTEM_RELATED_TO,NVDA,0.72,cloud AI infrastructure relation
+TSLA,HIGH_BETA_RELATED_TO,NVDA,0.45,growth and momentum linkage
+QQQ,CONTAINS,AAPL,0.88,ETF constituent exposure
+QQQ,CONTAINS,MSFT,0.88,ETF constituent exposure
+QQQ,CONTAINS,NVDA,0.86,ETF constituent exposure
+QQQ,CONTAINS,AMD,0.45,ETF constituent exposure
+SPY,CONTAINS,AAPL,0.72,S&P 500 constituent exposure
+SPY,CONTAINS,MSFT,0.72,S&P 500 constituent exposure
+SPY,CONTAINS,NVDA,0.7,S&P 500 constituent exposure
+SPY,CONTAINS,TSLA,0.4,S&P 500 constituent exposure
+VOO,TRACKS_SIMILAR_INDEX_AS,SPY,0.96,S&P 500 ETF similarity
+IVV,TRACKS_SIMILAR_INDEX_AS,SPY,0.96,S&P 500 ETF similarity
+VOO,CONTAINS,AAPL,0.72,S&P 500 constituent exposure
+VOO,CONTAINS,MSFT,0.72,S&P 500 constituent exposure
+IVV,CONTAINS,AAPL,0.72,S&P 500 constituent exposure
+IVV,CONTAINS,MSFT,0.72,S&P 500 constituent exposure

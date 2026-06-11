@@ -1,0 +1,8 @@
+﻿ticker,daily_rows,trade_rows,memory_rows,weight_rows,ablation_rows
+AAPL,188,9,10,10,5
+IVV,191,8,10,10,5
+MSFT,188,5,10,10,5
+NVDA,188,7,10,10,5
+SPY,191,8,10,10,5
+TSLA,188,7,10,10,5
+VOO,191,8,10,10,5

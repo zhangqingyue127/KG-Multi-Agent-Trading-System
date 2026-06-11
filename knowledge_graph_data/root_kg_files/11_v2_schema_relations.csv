@@ -1,0 +1,13 @@
+﻿entity_or_relation,type,source_paper,purpose
+AgentTeam,Entity,TradingAgents,表示多 Agent 组织结构，如 AnalystTeam、ResearchTeam、RiskManagementTeam。
+AgentRole,Entity,TradingAgents,表示每个 Agent 的专业角色，支撑可解释分工。
+MarketSnapshot,Entity,FinDKG,把资产在某天的市场状态、波动状态、决策上下文绑定为时间快照。
+MetaEntity,Entity,FinDKG,给实体类型增加元实体分类，便于后续异构图建模。
+AgentContest,Entity,ContestTrade,表示某资产某日的 Agent 内部竞争与排名过程。
+AgentRank,Entity,ContestTrade,记录 Agent 在某次决策中的权重排名。
+Evidence,Entity,TradingAgents,把技术、看多、看空、风险评分结构化为决策证据。
+BELONGS_TO_TEAM,Relation,TradingAgents,Agent 归属团队。
+HAS_DECISION_CONTEXT,Relation,FinDKG + TradingAgents,决策关联到带时间戳的市场快照。
+EVALUATED_BY,Relation,ContestTrade,Agent 由市场反馈竞赛机制评价。
+SELECTS_TOP_AGENT,Relation,ContestTrade,每次决策选择权重最高的 Agent 作为主要信号来源之一。
+SUPPORTED_BY_EVIDENCE,Relation,TradingAgents,决策由结构化证据支撑。

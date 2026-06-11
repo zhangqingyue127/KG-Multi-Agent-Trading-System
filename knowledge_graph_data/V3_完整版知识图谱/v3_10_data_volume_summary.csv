@@ -1,0 +1,7 @@
+﻿"file","rows","size_bytes"
+"v3_01_raw_market_data.csv","22200","2406368"
+"v3_03_daily_technical_indicators.csv","21013","2438989"
+"v3_04_daily_market_states.csv","21013","1222413"
+"v3_05_daily_agent_trust_weights.csv","84052","6419864"
+"v3_06_daily_decision_and_risk_veto.csv","21013","2679117"
+"v3_07_kg_triples_full.csv","513032","61029800"

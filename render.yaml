@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sp500-etf-market-dashboard
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /health

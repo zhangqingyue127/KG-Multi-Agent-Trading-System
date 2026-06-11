@@ -1,0 +1,10 @@
+node_modules
+build
+.venv
+.vscode
+.git
+__pycache__
+*.pyc
+作业提交_重点文件
+作业提交_重点文件.zip
+ETF500重点文件.zip

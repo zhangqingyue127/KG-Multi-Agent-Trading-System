@@ -1,0 +1,648 @@
+/* ===== ENHANCED STOCK DETAIL STYLES ===== */
+
+/* Intraday Summary */
+.intraday-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.intraday-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  text-align: center;
+  transition: all 0.25s ease;
+  border: 1px solid #f0f2f5;
+}
+
+.intraday-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+  border-color: #e0e6ed;
+}
+
+.intraday-label {
+  font-size: 11px;
+  color: #7f8c8d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.intraday-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c3e50;
+  font-family: 'Courier New', monospace;
+}
+
+/* Chart Controls */
+.chart-controls {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 25px;
+  border: 1px solid #f0f2f5;
+}
+
+.control-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+
+.control-group:last-child {
+  margin-bottom: 0;
+}
+
+.control-label {
+  font-weight: 600;
+  color: #2c3e50;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+/* Period Selector in Chart Controls */
+.period-selector {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.period-btn {
+  padding: 8px 14px;
+  border: 2px solid #e0e6ed;
+  background: white;
+  color: #7f8c8d;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.period-btn:hover {
+  border-color: #3498db;
+  color: #3498db;
+  background: #f8f9fa;
+}
+
+.period-btn.active {
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: white;
+  border-color: #3498db;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.25);
+}
+
+/* Chart Type Selector */
+.chart-type-selector {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.chart-type-btn {
+  padding: 8px 16px;
+  border: 2px solid #e0e6ed;
+  background: white;
+  color: #7f8c8d;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  transition: all 0.25s ease;
+}
+
+.chart-type-btn:hover {
+  border-color: #3498db;
+  color: #3498db;
+  background: #f8f9fa;
+}
+
+.chart-type-btn.active {
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: white;
+  border-color: #3498db;
+  box-shadow: 0 3px 10px rgba(52, 152, 219, 0.25);
+}
+
+/* Indicator Toggles */
+.indicator-toggles {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.indicator-toggle {
+  padding: 8px 12px;
+  border: 2px solid #e0e6ed;
+  background: white;
+  color: #7f8c8d;
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 12px;
+  transition: all 0.25s ease;
+}
+
+.indicator-toggle:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+  background: rgba(212, 175, 55, 0.05);
+}
+
+.indicator-toggle.active {
+  background: linear-gradient(90deg, #d4af37, #c9a227);
+  color: white;
+  border-color: #d4af37;
+  box-shadow: 0 3px 10px rgba(212, 175, 55, 0.25);
+}
+
+/* Detail Sections */
+.detail-section {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+  animation: fadeIn 0.5s ease;
+}
+
+.detail-section .section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f0f2f5;
+}
+
+/* Company Profile */
+.company-profile {
+  border-left: 4px solid #d4af37;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company-description {
+  color: #2c3e50;
+  line-height: 1.8;
+  font-size: 15px;
+}
+
+.company-details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.company-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid #d4af37;
+}
+
+.company-detail-item label {
+  font-size: 12px;
+  color: #7f8c8d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.company-detail-item value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Prediction Summary */
+.prediction-summary {
+  border-left: 4px solid #27ae60;
+}
+
+.prediction-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.prediction-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e8f4f8 100%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #e0e6ed;
+  transition: all 0.25s ease;
+}
+
+.prediction-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.15);
+  border-color: #3498db;
+}
+
+.prediction-period {
+  font-size: 12px;
+  color: #7f8c8d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.prediction-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-family: 'Courier New', monospace;
+}
+
+.prediction-change {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.prediction-change.positive {
+  color: #27ae60;
+}
+
+.prediction-change.negative {
+  color: #e74c3c;
+}
+
+.prediction-confidence {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.1) 0%, rgba(212, 175, 55, 0.05) 100%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid rgba(212, 175, 55, 0.2);
+}
+
+.confidence-label {
+  font-size: 12px;
+  color: #7f8c8d;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+.confidence-value {
+  font-size: 28px;
+  font-weight: 800;
+  color: #d4af37;
+  margin-bottom: 12px;
+  font-family: 'Courier New', monospace;
+}
+
+.confidence-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.confidence-fill {
+  height: 8px;
+  background: linear-gradient(90deg, #d4af37 0%, #c9a227 100%);
+  border-radius: 4px;
+  transition: width 0.3s ease;
+  box-shadow: 0 2px 8px rgba(212, 175, 55, 0.25);
+}
+
+/* Risk Reminder */
+.risk-reminder {
+  border-left: 4px solid #e74c3c;
+  background: linear-gradient(135deg, rgba(231, 76, 60, 0.05) 0%, rgba(231, 76, 60, 0.02) 100%);
+}
+
+.risk-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.risk-item {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  border-left: 3px solid #e74c3c;
+  transition: all 0.25s ease;
+}
+
+.risk-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.risk-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.risk-content {
+  flex: 1;
+}
+
+.risk-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 4px;
+}
+
+.risk-description {
+  font-size: 13px;
+  color: #7f8c8d;
+  line-height: 1.5;
+}
+
+/* Latest News */
+.latest-news {
+  border-left: 4px solid #3498db;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-item {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 3px solid #e0e6ed;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.news-item:hover {
+  background: #f0f2f5;
+  border-left-color: #3498db;
+  transform: translateX(4px);
+}
+
+.news-sentiment {
+  font-size: 20px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.news-sentiment.positive {
+  color: #27ae60;
+}
+
+.news-sentiment.negative {
+  color: #e74c3c;
+}
+
+.news-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.news-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+.news-meta {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #7f8c8d;
+}
+
+.news-source {
+  font-weight: 600;
+  padding: 2px 8px;
+  background: #e0e6ed;
+  border-radius: 4px;
+}
+
+.news-date {
+  font-weight: 500;
+}
+
+/* Related Stocks */
+.related-stocks {
+  border-left: 4px solid #f39c12;
+}
+
+.related-stocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+}
+
+.related-stock-card {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e8f4f8 100%);
+  padding: 18px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #e0e6ed;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.related-stock-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(52, 152, 219, 0.2);
+  border-color: #3498db;
+}
+
+.related-stock-card.positive {
+  border-left: 4px solid #27ae60;
+}
+
+.related-stock-card.negative {
+  border-left: 4px solid #e74c3c;
+}
+
+.related-stock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.related-stock-symbol {
+  font-size: 16px;
+  font-weight: 700;
+  color: #d4af37;
+  font-family: 'Courier New', monospace;
+}
+
+.related-stock-direction {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.related-stock-direction.up {
+  color: #27ae60;
+}
+
+.related-stock-direction.down {
+  color: #e74c3c;
+}
+
+.related-stock-name {
+  font-size: 12px;
+  color: #2c3e50;
+  margin-bottom: 8px;
+  line-height: 1.3;
+  min-height: 24px;
+}
+
+.related-stock-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 6px;
+  font-family: 'Courier New', monospace;
+}
+
+.related-stock-change {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.related-stock-change.positive {
+  color: #27ae60;
+}
+
+.related-stock-change.negative {
+  color: #e74c3c;
+}
+
+/* Responsive for Stock Detail */
+@media (max-width: 768px) {
+  .chart-controls {
+    padding: 15px;
+  }
+
+  .control-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .period-selector,
+  .chart-type-selector,
+  .indicator-toggles {
+    width: 100%;
+  }
+
+  .intraday-summary {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .intraday-card {
+    padding: 12px;
+  }
+
+  .detail-section {
+    padding: 20px;
+  }
+
+  .detail-section .section-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .prediction-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .prediction-confidence {
+    grid-column: auto;
+  }
+
+  .risk-items {
+    grid-template-columns: 1fr;
+  }
+
+  .related-stocks-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .company-details-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-controls {
+    padding: 12px;
+  }
+
+  .control-group {
+    gap: 8px;
+  }
+
+  .intraday-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-section {
+    padding: 15px;
+  }
+
+  .prediction-cards {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .risk-items {
+    grid-template-columns: 1fr;
+  }
+
+  .related-stocks-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .company-details-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-item {
+    gap: 10px;
+    padding: 12px;
+  }
+
+  .news-sentiment {
+    font-size: 18px;
+  }
+}

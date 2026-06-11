@@ -1,0 +1,10 @@
+﻿asset,date,event_id,event_type,sentiment,summary
+NVDA,2025-02-26,Event:NVDA_2025-02-26_EarningsBeat,EarningsBeat,positive,AI demand and data center revenue beat expectations
+NVDA,2025-04-09,Event:NVDA_2025-04-09_ExportRestriction,ExportRestriction,negative,semiconductor export policy risk increased
+TSLA,2025-01-29,Event:TSLA_2025-01-29_EarningsMiss,EarningsMiss,negative,margin pressure and delivery growth uncertainty
+TSLA,2025-05-12,Event:TSLA_2025-05-12_ProductCatalyst,ProductCatalyst,positive,new product roadmap improved growth narrative
+AMD,2025-02-04,Event:AMD_2025-02-04_GuidanceWeakness,GuidanceWeakness,negative,AI accelerator revenue guidance disappointed
+AMD,2025-05-06,Event:AMD_2025-05-06_EarningsBeat,EarningsBeat,positive,server and AI chip demand improved
+AAPL,2025-01-30,Event:AAPL_2025-01-30_EarningsBeat,EarningsBeat,positive,services revenue and buyback supported sentiment
+MSFT,2025-01-29,Event:MSFT_2025-01-29_CloudGrowth,CloudGrowth,positive,Azure and AI cloud growth remained strong
+JPM,2025-04-11,Event:JPM_2025-04-11_EarningsBeat,EarningsBeat,positive,net interest income and trading revenue beat

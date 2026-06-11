@@ -1,0 +1,5 @@
+﻿source,target,scenario,path,path_length
+NVDA,SPY,AI semiconductor risk to broad ETF,NVDA -> SPY,1
+AMD,QQQ,semiconductor peer risk to tech ETF,AMD -> QQQ,1
+TSLA,SPY,high beta growth risk to broad market ETF,TSLA -> SPY,1
+AAPL,NVDA,mega-cap device ecosystem to AI chip hub,AAPL -> NVDA,1

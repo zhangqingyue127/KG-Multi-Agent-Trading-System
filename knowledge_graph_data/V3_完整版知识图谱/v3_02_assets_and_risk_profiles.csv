@@ -1,0 +1,21 @@
+﻿asset,name,sector,asset_type,style,vol_bucket,risk_profile,min_position,max_position,vol_limit,drawdown_limit,risk_budget,data_source
+SPY,SPDR S&P 500 ETF,Broad Market,ETF,Index,low,ETF_LowVolatility,0.0,0.8,0.28,-0.15,0.1,YahooFinance
+QQQ,Invesco QQQ Trust,Technology Growth,ETF,Index,medium,ETF_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+DIA,SPDR Dow Jones Industrial Average ETF,Broad Market,ETF,Index,low,ETF_LowVolatility,0.0,0.8,0.28,-0.15,0.1,YahooFinance
+IWM,iShares Russell 2000 ETF,Small Cap,ETF,Index,medium,ETF_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+TLT,iShares 20+ Year Treasury Bond ETF,Bond,ETF,Rates,medium,ETF_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+GLD,SPDR Gold Shares,Commodity,ETF,Gold,medium,ETF_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+AAPL,Apple Inc.,Technology,MegaCapStock,Quality Growth,medium,MegaCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+MSFT,Microsoft Corporation,Technology,MegaCapStock,Quality Growth,medium,MegaCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+NVDA,NVIDIA Corporation,Semiconductors,HighGrowthStock,AI Growth,high,HighGrowthStock_HighVolatility,0.0,0.35,0.62,-0.35,0.06,YahooFinance
+TSLA,Tesla Inc.,Consumer Discretionary,HighGrowthStock,High Beta Growth,high,HighGrowthStock_HighVolatility,0.0,0.35,0.62,-0.35,0.06,YahooFinance
+AMZN,Amazon.com Inc.,Consumer Discretionary,MegaCapStock,Growth,medium,MegaCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+GOOGL,Alphabet Inc.,Communication Services,MegaCapStock,Growth,medium,MegaCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+META,Meta Platforms Inc.,Communication Services,MegaCapStock,Growth,medium,MegaCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+JPM,JPMorgan Chase & Co.,Financials,LargeCapStock,Value,medium,LargeCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+XOM,Exxon Mobil Corporation,Energy,LargeCapStock,Value,medium,LargeCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+UNH,UnitedHealth Group Inc.,Healthcare,LargeCapStock,Defensive,medium,LargeCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+JNJ,Johnson & Johnson,Healthcare,LargeCapStock,Defensive,low,LargeCapStock_LowVolatility,0.0,0.8,0.28,-0.15,0.1,YahooFinance
+KO,The Coca-Cola Company,Consumer Staples,LargeCapStock,Defensive,low,LargeCapStock_LowVolatility,0.0,0.8,0.28,-0.15,0.1,YahooFinance
+COST,Costco Wholesale Corporation,Consumer Staples,LargeCapStock,Quality,medium,LargeCapStock_MediumVolatility,0.0,0.55,0.42,-0.24,0.08,YahooFinance
+AMD,Advanced Micro Devices Inc.,Semiconductors,HighGrowthStock,AI Growth,high,HighGrowthStock_HighVolatility,0.0,0.35,0.62,-0.35,0.06,YahooFinance

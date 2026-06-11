@@ -1,0 +1,6 @@
+﻿asset,asset_type,risk_profile,vol_bucket,min_position,max_position,max_drawdown_limit,vol_limit,data_source
+SPY,ETF,LowVolatilityETF,low,0.0,0.8,-0.12,0.25,SyntheticFallback
+AAPL,MegaCapStock,MegaCapMediumVolatility,medium,0.0,0.55,-0.18,0.35,SyntheticFallback
+MSFT,MegaCapStock,MegaCapMediumVolatility,medium,0.0,0.55,-0.18,0.35,SyntheticFallback
+NVDA,HighGrowthStock,HighGrowthHighVolatility,high,0.0,0.35,-0.28,0.55,SyntheticFallback
+TSLA,HighGrowthStock,HighGrowthHighVolatility,high,0.0,0.3,-0.3,0.6,SyntheticFallback
